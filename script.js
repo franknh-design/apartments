@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
   fetchWeatherForTopbar();   // 🔥 viktig
   loadData();
 
-  setInterval(showSlide, 15000);
+  setInterval(showSlide, 10000);
   setInterval(loadData, 60000);
   setInterval(updateClock, 1000);
   setInterval(fetchWeatherForTopbar, 600000);
